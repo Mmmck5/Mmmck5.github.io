@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: 欢迎 Welcome
+description: The public space for my thoughts. From travelogue to mathematical derivations. Unashamedly billingual.
+url: https://mmmck5.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -29,15 +29,14 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
+# twitter:
+#   username: 
+#   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Chengkai (Kai) Men
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/Mmmck5
 google_site_verification: xxxxx
 lang: en
 
@@ -55,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Kai Men
+  url: https://github.com/Mmmck5
+  email: menchengkai@gmail.com
