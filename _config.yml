@@ -5,6 +5,7 @@ icon: fab fa-duotone fa-mug-hot
 url: https://mmmck5.github.io
 avatar: /avatar.jpeg
 paginate: 5
+paginate_path: "/_posts"
 permalink: pretty
 cover_image: /bg.jpeg
 
