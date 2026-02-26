@@ -9,7 +9,5 @@ published: false
 ---
 Testing the first arts post.
 
-The ideas in some posts might be very personal. 求同存异 would be greatly appreciated. 
-
-The Best,
+Best,
 Kai
