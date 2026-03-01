@@ -3,7 +3,7 @@ title: Hello!
 description:
 icon: fab fa-duotone fa-mug-hot
 url: https://mmmck5.github.io
-avatar: assets/images/avatar.jpeg
+avatar: assets/images/avatar.jpg
 paginate: 5
 paginate_path: "/_posts"
 permalink: pretty
