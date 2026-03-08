@@ -3,8 +3,7 @@ layout: post
 title: "Reading Review - Dario Amodei: The Adolescence of Technology"
 author: Kai
 tags:
-- article
-- AI
+- conversations
 - reading review
 date: 2026-03-07 00:00 +0000
 toc: true
@@ -12,7 +11,7 @@ toc: true
 ### Reading Review - Dario Amodei *The Adolescence of Technology*
 
 1. 如何想象未来AI的能力？我非常喜欢他用的这个比喻：
-   >[!tip] A country of geniuses in a datacenter
+   ***A country of geniuses in a datacenter***
 
 2. Dario谈到AI model的不确定性。
    - 其实，这是我一直以来思考的问题。为什么总说LLM是不确定的？这个问题指的是LLM的输出是不确定的吗？可是我们知道，LLM处理输入的本质是一个非线性方程。对于同一輸入 x，f（x）应该是*确定*的。可是连Dario也这么说。的确，从使用的角度来说同一个prompt貌似产生了不同的输出，可是据chatgpt说这来源于AI公司刻意改变random states然后筛选以产生更优的输出。

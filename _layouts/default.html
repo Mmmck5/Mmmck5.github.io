@@ -24,7 +24,7 @@
       </div>
       {%- endunless -%}
 
-      <div class="content pure-u-1 {% if page.layout == 'post' %}pure-u-md-3-4{% else %}pure-u-md-1-2{% endif %}">
+      <div class="content pure-u-1 {% if page.layout == 'post' %}pure-u-md-3-4 post-content{% else %}pure-u-md-1-2{% endif %}">
         {%- include content.html -%}
       </div>
       <div class="sidebar-right pure-u-1 pure-u-md-1-4">

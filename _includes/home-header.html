@@ -1,13 +1,23 @@
 <div class="home-header pure-menu pure-menu-horizontal">
   <div class="home-header-bar">
-    {% if site.data.archive %}
     <ul class="home-header-menu pure-menu-list">
-      {% for item in site.data.archive %}
+      <li class="pure-menu-item">
+        <a href="{{ '/recent/' | relative_url }}" class="pure-menu-link {% if page.url == '/recent/' %}current-item{% endif %}">Recent</a>
+      </li>
+      {% assign articles = site.posts | where_exp: "p", "p.path contains '_posts/articles/'" %}
+      {% assign first_tags = "" | split: "" %}
+      {% for post in articles %}
+        {% assign ft = post.tags[0] %}
+        {% unless first_tags contains ft %}
+          {% assign first_tags = first_tags | push: ft %}
+        {% endunless %}
+      {% endfor %}
+      {% for tag in first_tags %}
+        {% assign tag_url = '/' | append: tag | downcase | append: '/' %}
         <li class="pure-menu-item">
-          <a href="{{ item.url | relative_url }}" class="pure-menu-link {% if page.url == item.url %}current-item{% endif %}"">{{ item.title }}</a>
+          <a href="{{ tag_url | relative_url }}" class="pure-menu-link {% if page.url == tag_url %}current-item{% endif %}">{{ tag | capitalize }}</a>
         </li>
       {% endfor %}
     </ul>
-    {% endif %}
   </div>
 </div>
