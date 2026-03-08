@@ -46,12 +46,7 @@ sass:
   style: :compressed
 
 # Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# google_analytics: UA-000000-0
-
-# Replace this value and uncomment to enable Disqus
-# disqus: xxxxxx
+google_analytics: G-Q9PCWCJLX1
 
 # Specify the author for blog posts
 author:
