@@ -8,8 +8,6 @@ tags:
 date: 2026-03-07 00:00 +0000
 toc: true
 ---
-### Reading Review - Dario Amodei *The Adolescence of Technology*
-
 1. 如何想象未来AI的能力？我非常喜欢他用的这个比喻：
    ***A country of geniuses in a datacenter***
 
