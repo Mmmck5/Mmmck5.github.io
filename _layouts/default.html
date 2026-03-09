@@ -36,21 +36,19 @@
 
     <script>
       (function() {
+        var btn = document.getElementById('theme-toggle-btn');
+        if (!btn) return;
         function setTheme(theme) {
           document.documentElement.dataset.theme = theme;
           localStorage.setItem('theme', theme);
-          updateActive(theme);
+          btn.textContent = theme === 'dark' ? 'Light' : 'Dark';
         }
-        function updateActive(theme) {
-          var darkBtn = document.getElementById('theme-dark-btn');
-          var lightBtn = document.getElementById('theme-light-btn');
-          if (!darkBtn || !lightBtn) return;
-          darkBtn.classList.toggle('active', theme === 'dark');
-          lightBtn.classList.toggle('active', theme === 'light');
-        }
-        document.getElementById('theme-dark-btn').addEventListener('click', function() { setTheme('dark'); });
-        document.getElementById('theme-light-btn').addEventListener('click', function() { setTheme('light'); });
-        updateActive(document.documentElement.dataset.theme);
+        btn.addEventListener('click', function() {
+          var current = document.documentElement.dataset.theme;
+          setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        var init = document.documentElement.dataset.theme || 'dark';
+        btn.textContent = init === 'dark' ? 'Light' : 'Dark';
       })();
     </script>
 
