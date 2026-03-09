@@ -30,11 +30,11 @@ toc: true
 - PAS (personal anchor system) - 用于a住自己
 	- 多种选择（按推荐顺序），本质上是连接安全带攀爬环的一条延长带+1把主锁：
 		- 多环：metolius PAS 22
-		  <figure><img src="{{ '/assets/images/climbing/Metolius PAS-22---Black-Yellow.jpg' | relative_url }}" alt="Metolius PAS-22" class="align-center" style="max-width:400px;"><figcaption class="align-center">Metolius PAS-22</figcaption></figure>
+		  <figure><img src="{{ '/assets/images/climbing/Metolius PAS-22---Black-Yellow.jpg' | relative_url }}" alt="Metolius PAS-22" class="align-left" style="max-width:400px;"><figcaption class="align-left">Metolius PAS-22</figcaption></figure>
 		- 一条扁带 sling+中间打单结
 		- 可调牛尾
 	- 安全带端用简单的牛套结（cow hitch）连接安全带**双攀爬环**
-	  <figure><img src="{{ '/assets/images/climbing/Cow Hitch.png' | relative_url }}" alt="Cow Hitch" class="align-center" style="max-width:400px;"><figcaption class="align-center">Cow Hitch 牛套结</figcaption></figure>
+	  <figure><img src="{{ '/assets/images/climbing/Cow Hitch.png' | relative_url }}" alt="Cow Hitch" class="align-left" style="max-width:400px;"><figcaption class="align-left">Cow Hitch 牛套结</figcaption></figure>
 	- metolius 多环 pas 的中间环，或扁带中间结用主锁连接 ATC 双管下降器。这也是为什么可调牛尾并不好用，因为中间没有直接固定 ATC 的位置
 - ATC guide（带上方保护环的）- 先锋保，上方保护后方跟攀人，以及双管下降
 	- （选带）grigri
@@ -58,7 +58,7 @@ toc: true
 1. 先锋攀爬，一路挂快挂上去，后面人进行先锋保护
 2. 沿挂片路线走，到达保护站后，先用 pas a住一个保护点，然后建立双保险（默认一个bolt是有可能爆的）：用快挂连接两个bolt点或其他方式。再挂一把快挂在另一个挂片，把绳子打一个clove hitch在这个快挂上，就可以给信号：我a住了，解除保护！
 3. 建立保护站。使用一条扁带和两个主锁，锁门方向相反，朝外挂在两个挂片上，注意锁门锁死。有多种保护站种类，最简单是一条扁带中间打一个单结，两端用牛套结系在两个主锁上。（图里两把主锁那用牛套结）
-<figure><img src="{{ '/assets/images/climbing/anchor system knot.png' | relative_url }}" alt="Anchor system knot" class="align-center" style="max-width:500px;"><figcaption class="align-center">保护站系统结绳方式</figcaption></figure>
+<figure><img src="{{ '/assets/images/climbing/anchor system knot.png' | relative_url }}" alt="Anchor system knot" class="align-left" style="max-width:500px;"><figcaption class="align-left">保护站系统结绳方式</figcaption></figure>
 >也可带一个建好的保护站上去，直接两把主锁a住挂片即可
 
 4. 确认自己a住，解开绳子的clove hitch，抽绳子直到下面攀爬端变直。然后用主锁把ATC guide或者gri gri挂在保护站上，进入保护，告诉下方可以攀爬
@@ -78,7 +78,7 @@ toc: true
 2. 绳子一端穿过双环，打绳尾结，然后从一端抽绳。一边抽绳一边盘在身上，抽到绳中过环的时候停，把身上的绳子扔下去
 3. 另一端同样打绳尾结，盘绳子在身上然后扔下去
 4. 放一把主锁连抓结，挂保护环上，打抓结连接双绳（注意可以做的比图更好，就是主锁一直连接抓结，防止抓结掉落地上）。测试抓结受力
-<figure><img src="{{ '/assets/images/climbing/friction hitch.png' | relative_url }}" alt="Friction hitch" class="align-center" style="max-width:400px;"><figcaption class="align-center">抓结连接双绳下降示意</figcaption></figure>
+<figure><img src="{{ '/assets/images/climbing/friction hitch.png' | relative_url }}" alt="Friction hitch" class="align-left" style="max-width:400px;"><figcaption class="align-left">抓结连接双绳下降示意</figcaption></figure>
 >抓结本身可以支撑全身重量，作为下降时的第二保护备份； 
 >抓结像是第三只手，下降时即便完全松手也可以停住
 
