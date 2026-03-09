@@ -80,27 +80,3 @@ footer {
     width: 75%;
   }
 }
-
-.theme-toggle {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  z-index: 1000;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  border: 1px solid var(--border-color);
-  background: var(--body-bg);
-  color: var(--body-color);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,.25);
-  transition: background 0.2s, color 0.2s;
-
-  &:hover {
-    opacity: 0.8;
-  }
-}

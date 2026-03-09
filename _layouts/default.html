@@ -34,23 +34,24 @@
 
     <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
-    <button class="theme-toggle" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
-      <i class="fas fa-sun"></i>
-    </button>
     <script>
-      var btn = document.getElementById('theme-toggle');
-      btn.addEventListener('click', function() {
-        var next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-        document.documentElement.dataset.theme = next;
-        localStorage.setItem('theme', next);
-        updateIcon(next);
-      });
-      function updateIcon(theme) {
-        var icon = document.querySelector('#theme-toggle i');
-        if (theme === 'dark') { icon.className = 'fas fa-sun'; }
-        else { icon.className = 'fas fa-moon'; }
-      }
-      updateIcon(document.documentElement.dataset.theme);
+      (function() {
+        function setTheme(theme) {
+          document.documentElement.dataset.theme = theme;
+          localStorage.setItem('theme', theme);
+          updateActive(theme);
+        }
+        function updateActive(theme) {
+          var darkBtn = document.getElementById('theme-dark-btn');
+          var lightBtn = document.getElementById('theme-light-btn');
+          if (!darkBtn || !lightBtn) return;
+          darkBtn.classList.toggle('active', theme === 'dark');
+          lightBtn.classList.toggle('active', theme === 'light');
+        }
+        document.getElementById('theme-dark-btn').addEventListener('click', function() { setTheme('dark'); });
+        document.getElementById('theme-light-btn').addEventListener('click', function() { setTheme('light'); });
+        updateActive(document.documentElement.dataset.theme);
+      })();
     </script>
 
     {%- include scroll.html -%}
