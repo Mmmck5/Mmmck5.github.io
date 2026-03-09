@@ -9,12 +9,11 @@
     return str;
   }
 
-  function scroll() {
-    console.log('scroll');
+  function scroll(instant) {
     window.scrollTo({
-      left: 0, 
+      left: 0,
       top: window.innerHeight,
-      behavior: 'smooth'
+      behavior: instant ? 'instant' : 'smooth'
     });
     sessionStorage.removeItem('forceCheckScroll');
   }
@@ -27,7 +26,7 @@
     const maxWidth = "(max-width: 48rem)";
     const result = window.matchMedia(maxWidth);
     if (result.matches) {
-      scroll();
+      scroll(forceCheckScroll);
     } else {
       result.addListener((match) => {
         if (match.media == maxWidth) {
