@@ -62,6 +62,7 @@ html[data-theme="light"] {
 
   --border-color: rgba(61, 43, 31, 0.2);
   --blockquote-border-color: var(--blue-400);
+  --blockquote-color: #2c5f8a;
 
   --code-bg: #EDD5BA;
 }
@@ -77,6 +78,7 @@ html[data-theme="dark"] {
 
   --border-color: rgba(255,255,255,.15);
   --blockquote-border-color: var(--orange);
+  --blockquote-color: #d4a373;
 
   --code-bg: #282828;
 }

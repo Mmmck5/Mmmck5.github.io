@@ -89,7 +89,7 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: var(--body-color);
+  color: var(--blockquote-color);
   border-left: .25rem solid var(--blockquote-border-color);
 
   p:last-child {
