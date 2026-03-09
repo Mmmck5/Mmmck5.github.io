@@ -51,7 +51,7 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-html[data-theme="light"] :root {
+html[data-theme="light"] {
   --body-color: #3D2B1F;
   --body-bg: #F5E3D0;
 
@@ -65,7 +65,7 @@ html[data-theme="light"] :root {
   --code-bg: #EDD5BA;
 }
 
-html[data-theme="dark"] :root {
+html[data-theme="dark"] {
   --body-color: var(--gray-300);
   --body-bg: var(--gray-800);
 
