@@ -58,8 +58,10 @@ toc: true
 1. 先锋攀爬，一路挂快挂上去，后面人进行先锋保护
 2. 沿挂片路线走，到达保护站后，先用 pas a住一个保护点，然后建立双保险（默认一个bolt是有可能爆的）：用快挂连接两个bolt点或其他方式。再挂一把快挂在另一个挂片，把绳子打一个clove hitch在这个快挂上，就可以给信号：我a住了，解除保护！
 3. 建立保护站。使用一条扁带和两个主锁，锁门方向相反，朝外挂在两个挂片上，注意锁门锁死。有多种保护站种类，最简单是一条扁带中间打一个单结，两端用牛套结系在两个主锁上。（图里两把主锁那用牛套结）
-<figure><img src="{{ '/assets/images/climbing/anchor system knot.png' | relative_url }}" alt="Anchor system knot" style="max-width:500px;"><figcaption>(保护站系统结绳方式)</figcaption></figure>
->也可带一个建好的保护站上去，直接两把主锁a住挂片即可
+
+   <figure><img src="{{ '/assets/images/climbing/anchor system knot.png' | relative_url }}" alt="Anchor system knot" style="max-width:500px;"><figcaption>(保护站系统结绳方式)</figcaption></figure>
+
+   >也可带一个建好的保护站上去，直接两把主锁a住挂片即可
 
 4. 确认自己a住，解开绳子的clove hitch，抽绳子直到下面攀爬端变直。然后用主锁把ATC guide或者gri gri挂在保护站上，进入保护，告诉下方可以攀爬
 
