@@ -2,7 +2,7 @@
   <div class="home-header-bar">
     <ul class="home-header-menu pure-menu-list">
       <li class="pure-menu-item">
-        <a href="{{ '/recent/' | relative_url }}" class="pure-menu-link {% if page.url == '/recent/' %}current-item{% endif %}">Recent</a>
+        <a href="{{ '/' | relative_url }}" class="pure-menu-link {% if page.url == '/' %}current-item{% endif %}">Home</a>
       </li>
       {% assign articles = site.posts | where_exp: "p", "p.path contains '_posts/articles/'" %}
       {% assign first_tags = "" | split: "" %}
@@ -18,6 +18,9 @@
           <a href="{{ tag_url | relative_url }}" class="pure-menu-link {% if page.url == tag_url %}current-item{% endif %}">{{ tag | capitalize }}</a>
         </li>
       {% endfor %}
+      <li class="pure-menu-item">
+        <a href="{{ '/recent/' | relative_url }}" class="pure-menu-link {% if page.url == '/recent/' %}current-item{% endif %}">Recent</a>
+      </li>
     </ul>
   </div>
 </div>

@@ -15,17 +15,26 @@
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>
   </div>
-  {%- if site.data.navigation -%}
+  {% assign articles = site.posts | where_exp: "p", "p.path contains '_posts/articles/'" %}
+  {% assign first_tags = "" | split: "" %}
+  {% for post in articles %}
+    {% assign ft = post.tags[0] %}
+    {% unless first_tags contains ft %}
+      {% assign first_tags = first_tags | push: ft %}
+    {% endunless %}
+  {% endfor %}
+  {% if first_tags.size > 0 %}
   <nav class="navigation">
     <ul class="navigation-list">
-    {%- for nav in site.data.navigation -%}
+    {% for tag in first_tags %}
+      {% assign tag_url = '/' | append: tag | downcase | append: '/' %}
       <li class="navigation-item">
-        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ tag_url | relative_url }}">{{ tag | capitalize }}</a>
       </li>
-    {%- endfor -%}
+    {% endfor %}
     </ul>
   </nav>
-  {%- endif -%}
+  {% endif %}
   {% if site.data.social -%}
     <div class="social pure-menu pure-menu-horizontal">
       <ul class="social-icons pure-menu-list">
