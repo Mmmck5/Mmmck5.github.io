@@ -15,10 +15,10 @@
       top: window.innerHeight,
       behavior: instant ? 'instant' : 'smooth'
     });
-    sessionStorage.removeItem('forceCheckScroll');
   }
 
   const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  sessionStorage.removeItem('forceCheckScroll');
   const checkScroll = strip(window.location.pathname, '/') !== strip('{{ site.baseurl }}', '/');
 
   const hasSidebar = document.querySelector('.sidebar-left') !== null;
