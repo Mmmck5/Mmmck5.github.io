@@ -3,6 +3,7 @@ layout: default
 title: Recent Articles
 permalink: /recent/
 ---
+{% include home-header.html %}
 <h1>Recent Articles</h1>
 
 {% assign articles = site.posts | where_exp: "p", "p.path contains '_posts/articles/'" %}
