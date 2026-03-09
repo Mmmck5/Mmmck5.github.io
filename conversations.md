@@ -3,6 +3,7 @@ layout: default
 title: Conversations
 permalink: /conversations/
 ---
+{% include home-header.html %}
 <h1>Conversations</h1>
 
 <ul>

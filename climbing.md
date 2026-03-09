@@ -3,6 +3,7 @@ layout: default
 title: Climbing
 permalink: /climbing/
 ---
+{% include home-header.html %}
 <h1>Climbing</h1>
 
 <ul>
