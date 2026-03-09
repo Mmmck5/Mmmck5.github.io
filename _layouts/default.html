@@ -34,6 +34,25 @@
 
     <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+      <i class="fas fa-sun"></i>
+    </button>
+    <script>
+      var btn = document.getElementById('theme-toggle');
+      btn.addEventListener('click', function() {
+        var next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem('theme', next);
+        updateIcon(next);
+      });
+      function updateIcon(theme) {
+        var icon = document.querySelector('#theme-toggle i');
+        if (theme === 'dark') { icon.className = 'fas fa-sun'; }
+        else { icon.className = 'fas fa-moon'; }
+      }
+      updateIcon(document.documentElement.dataset.theme);
+    </script>
+
     {%- include scroll.html -%}
 
     {%- if page.math -%}

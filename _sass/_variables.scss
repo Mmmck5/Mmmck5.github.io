@@ -51,20 +51,32 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-color: var(--gray-300);
-    --body-bg: var(--gray-800);
+html[data-theme="light"] :root {
+  --body-color: #3D2B1F;
+  --body-bg: #F5E3D0;
 
-    --heading-color: #fff;
+  --heading-color: #2A1A0F;
 
-    --link-color: var(--blue-300);
-    --link-hover-color: var(--blue-400);
+  --link-color: #7B3F00;
+  --link-hover-color: #5C2E00;
 
-    --border-color: rgba(255,255,255,.15);
+  --border-color: rgba(61, 43, 31, 0.2);
 
-    --code-bg: #282828;
-  }
+  --code-bg: #EDD5BA;
+}
+
+html[data-theme="dark"] :root {
+  --body-color: var(--gray-300);
+  --body-bg: var(--gray-800);
+
+  --heading-color: #fff;
+
+  --link-color: var(--blue-300);
+  --link-hover-color: var(--blue-400);
+
+  --border-color: rgba(255,255,255,.15);
+
+  --code-bg: #282828;
 }
 
 $sm-width: 35.5rem;

@@ -2,6 +2,8 @@
  * rougify style gruvbox.dark
  */
 
+html[data-theme="dark"] {
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
@@ -86,3 +88,5 @@
 .highlight .ss {
   color: #83a598;
 }
+
+} // end html[data-theme="dark"]
