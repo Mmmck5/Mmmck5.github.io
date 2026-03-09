@@ -6,6 +6,13 @@
 .post-entry {
   border-bottom: 1px solid var(--border-color);
   margin-bottom: var(--spacer-3);
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 .page,
