@@ -82,6 +82,7 @@ toc: true
 4. 放一把主锁连抓结，挂保护环上，打抓结连接双绳（注意可以做的比图更好，就是主锁一直连接抓结，防止抓结掉落地上）。测试抓结受力
 
    <figure><img src="{{ '/assets/images/climbing/friction hitch.png' | relative_url }}" alt="Friction hitch" style="max-width:400px;"><figcaption>(抓结连接双绳下降示意)</figcaption></figure>
+   
    >抓结本身可以支撑全身重量，作为下降时的第二保护备份； 
    >抓结像是第三只手，下降时即便完全松手也可以停住
 
