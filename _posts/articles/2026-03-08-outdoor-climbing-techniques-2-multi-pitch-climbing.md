@@ -80,9 +80,10 @@ toc: true
 2. 绳子一端穿过双环，打绳尾结，然后从一端抽绳。一边抽绳一边盘在身上，抽到绳中过环的时候停，把身上的绳子扔下去
 3. 另一端同样打绳尾结，盘绳子在身上然后扔下去
 4. 放一把主锁连抓结，挂保护环上，打抓结连接双绳（注意可以做的比图更好，就是主锁一直连接抓结，防止抓结掉落地上）。测试抓结受力
-<figure><img src="{{ '/assets/images/climbing/friction hitch.png' | relative_url }}" alt="Friction hitch" style="max-width:400px;"><figcaption>(抓结连接双绳下降示意)</figcaption></figure>
->抓结本身可以支撑全身重量，作为下降时的第二保护备份； 
->抓结像是第三只手，下降时即便完全松手也可以停住
+
+   <figure><img src="{{ '/assets/images/climbing/friction hitch.png' | relative_url }}" alt="Friction hitch" style="max-width:400px;"><figcaption>(抓结连接双绳下降示意)</figcaption></figure>
+   >抓结本身可以支撑全身重量，作为下降时的第二保护备份； 
+   >抓结像是第三只手，下降时即便完全松手也可以停住
 
 5. 撸一把抓结给绳子余量，连接 ATC 和主锁于身上下降环，收紧抓结，让ATC受力
 6. 解除自保，一手撸抓结下降
