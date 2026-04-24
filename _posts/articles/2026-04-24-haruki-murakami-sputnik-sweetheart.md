@@ -33,7 +33,7 @@ toc: true
 
 >所谓理解，通常不过是误解的总和。
 
-<figure style="text-align:center; width:50%; max-width:200px; margin:0 auto;">
+<figure style="text-align:center; width:50%; margin:0 auto;">
   <img src="{{ '/assets/images/articles/sputnik-1-replica.png' | relative_url }}" alt="Sputnik 1 replica" style="width:100%; height:auto;">
   <figcaption>Sputnik 1</figcaption>
 </figure>
