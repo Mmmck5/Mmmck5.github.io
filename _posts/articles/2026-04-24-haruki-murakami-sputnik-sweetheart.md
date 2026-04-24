@@ -33,6 +33,6 @@ toc: true
 >所谓理解，通常不过是误解的总和。
 
 <figure style="text-align:center;">
-  <img src="{{ '/assets/images/articles/sputnik-1-replica.png' | relative_url }}" alt="Sputnik 1 replica" style="max-width:400px; width:100%; height:auto;">
-  <figcaption>Sputnik 1 — 第一颗人造卫星，俄语意为"旅伴"</figcaption>
+  <img src="{{ '/assets/images/articles/sputnik-1-replica.png' | relative_url }}" alt="Sputnik 1 replica" style="max-width:200px; width:50%; height:auto;">
+  <figcaption>Sputnik 1</figcaption>
 </figure>
