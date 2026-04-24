@@ -12,6 +12,7 @@ toc: true
 私以为这是村上最优秀的小说之一。首先需要明确：比起长篇小说，村上更擅长短篇。虽然他确实是以《挪威的森林》成名，但实话实说，《挪威》更像多个小故事以非线性又不显杂乱的方式混合在一起的产物。他的长篇小说经常有很多篇幅显得空泛。相比之下，短篇小说个个内容丰富，主题完整。一鸣惊人的《且听风吟》就是如此，这本《斯普特尼克恋人》亦可列为他最好的短篇之中。
 - 探讨的主题？
 	- 孤独，性的分离（我自称此为‘罐装性欲’），认知与无知，关系的持续与终结
+
 # 分段感受
 - 严重剧透
 - 以文章行进的时间顺序排列，仅记录读时有所感想的部分---毕竟没有意识到的东西再怎么努力也无法知道，权当无所谓了。
@@ -32,7 +33,7 @@ toc: true
 
 >所谓理解，通常不过是误解的总和。
 
-<figure style="text-align:center;">
-  <img src="{{ '/assets/images/articles/sputnik-1-replica.png' | relative_url }}" alt="Sputnik 1 replica" style="max-width:200px; width:50%; height:auto;">
+<figure style="text-align:center; width:50%; max-width:200px; margin:0 auto;">
+  <img src="{{ '/assets/images/articles/sputnik-1-replica.png' | relative_url }}" alt="Sputnik 1 replica" style="width:100%; height:auto;">
   <figcaption>Sputnik 1</figcaption>
 </figure>
